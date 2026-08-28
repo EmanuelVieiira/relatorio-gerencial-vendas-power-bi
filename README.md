@@ -51,7 +51,7 @@ Os dados utilizados foram disponibilizados pela expert no repositório original 
 
 | Arquivo | Descrição |
 |---|---|
-| `Formação_Power_BI.pbix` | Arquivo original do projeto Power BI |
+| `Formação_Power_BI.pbit` | Arquivo original do projeto Power BI |
 | `Formação_Power_BI.pdf` | Exportação em PDF do relatório completo |
 ## 🖼️ Prévia do relatório
 
