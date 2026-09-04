@@ -1,45 +1,55 @@
-# Análise de Vendas e Lucro com Power BI
+# 📈 Relatório Gerencial de Vendas — Power BI
 
-Projeto desenvolvido como desafio prático do bootcamp **Analisando Dados com SQL, Analytics e Power BI** da [DIO](https://www.dio.me/).
+> Dashboard interativo de vendas e lucro, desenvolvido como desafio prático do bootcamp **Analisando Dados com SQL, Analytics e Power BI**, da [DIO](https://www.dio.me/).
 
-## 📊 Páginas do Relatório
+## 🖼️ Prévia do relatório
+
+### Página 1 – Sales Report
+
+<img width="1118" height="622" alt="Sales Report" src="https://github.com/user-attachments/assets/31f54a6a-a21c-4203-9dc2-f9f210356294" />
+
+### Alternância entre visualizações
+
+<img width="1118" height="622" alt="Pie Chart / Bar Chart" src="https://github.com/user-attachments/assets/63cf1827-d0b5-4faa-b087-6123bb4eccb9" />
+
+### Página 2 – Report de Lucro Detalhado
+
+<img width="1118" height="622" alt="Report de Lucro Detalhado" src="https://github.com/user-attachments/assets/d06ad0be-c85f-418f-9608-23761fd1df13" />
+
+## 🚀 Funcionalidades
 
 ### 1. Sales Report
 
-Dashboard destinado à análise geral das vendas, apresentando indicadores e visualizações sobre o desempenho comercial.
+Dashboard destinado à análise geral das vendas, apresentando indicadores e visualizações sobre o desempenho comercial:
 
-- **Total de Vendas**
-- **Total de Unidades Vendidas**
-- **Total de Descontos**
-- **Total de COGS**
-- **Evolução das vendas por mês**
-- **Vendas por segmento**
-- **Vendas por produto**
-- **Vendas por país**
+- Total de Vendas
+- Total de Unidades Vendidas
+- Total de Descontos
+- Total de COGS
+- Evolução das vendas por mês
+- Vendas por segmento, produto e país
 
-A página possui um filtro de período, permitindo analisar os dados de acordo com a data selecionada.
+A página possui um **filtro de período** e **botões de navegação entre tipos de visualização**:
 
-Além disso, foram utilizados **botões de navegação entre diferentes tipos de visualização**, permitindo ao usuário alternar a forma como os dados são apresentados:
-
-- **Pie Chart / Bar Chart:** permite alternar entre um gráfico de pizza e um gráfico de barras para analisar as vendas por segmento.
-- **Map Chart / Treemap:** permite alternar entre um mapa e um treemap para visualizar a distribuição das vendas por país.
-
-Dessa forma, o usuário pode escolher a visualização que considera mais adequada para a análise dos dados.
+- **Pie Chart / Bar Chart** — alterna entre gráfico de pizza e de barras para vendas por segmento.
+- **Map Chart / Treemap** — alterna entre mapa e treemap para distribuição de vendas por país.
 
 ### 2. Report de Lucro Detalhado
 
-Página destinada a uma análise mais detalhada do lucro, permitindo explorar os resultados por diferentes dimensões.
+Página destinada a uma análise mais aprofundada do lucro, explorando os resultados por diferentes dimensões:
 
-- **Lucro por produto**
-- **Lucro por segmento**
-- **Lucro por trimestre**
-- **Lucro por país**
-- **Análise hierárquica do lucro por ano e país**
-- **Filtros por ano e país**
+- Lucro por produto, segmento, trimestre e país
+- Análise hierárquica do lucro por ano e país
+- Filtros por ano e país
 
-Os visuais utilizados incluem **gráfico de radar, treemap, gráfico de cascata (waterfall) e árvore de decomposição**, permitindo uma análise mais aprofundada dos resultados.
+Usa **gráfico de radar, treemap, gráfico de cascata (waterfall) e árvore de decomposição**, além de um **botão de voltar** para retornar ao Sales Report.
 
-A página também possui um **botão de voltar**, localizado na lateral do relatório. Caso seja necessário consultar novamente alguma informação apresentada na Página 1, basta clicar no botão para retornar ao **Sales Report**.
+## 🛠️ Tecnologias utilizadas
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+
+- **Power BI Desktop** — modelagem de dados, visualizações e navegação interativa entre páginas
+- **Campos calculados e agregações nativas** — totais, evolução mensal e lucro por dimensão usando os recursos prontos do Power BI
 
 ## 🗂️ Fonte dos dados
 
@@ -51,18 +61,17 @@ Os dados utilizados foram disponibilizados pela expert no repositório original 
 
 | Arquivo | Descrição |
 |---|---|
-| `Formação_Power_BI.pbit` | Arquivo original do projeto Power BI |
+| `Formação_Power_BI.pbit` | Arquivo original do projeto Power BI (template) |
 | `Formação_Power_BI.pdf` | Exportação em PDF do relatório completo |
-## 🖼️ Prévia do relatório
 
-### Página 1 – Sales Report
+## ▶️ Como abrir o projeto
 
-<img width="1118" height="622" alt="Sales Report" src="https://github.com/user-attachments/assets/31f54a6a-a21c-4203-9dc2-f9f210356294" />
+1. Instale o [Power BI Desktop](https://www.microsoft.com/pt-br/power-platform/products/power-bi/downloads) (gratuito).
+2. Baixe o arquivo `Formação_Power_BI.pbit` deste repositório.
+3. Abra o arquivo no Power BI Desktop — como é um template (.pbit), ele pode pedir para reconectar a fonte de dados original (veja o link na seção acima).
 
-### Alternância 
+> Não tem o Power BI instalado? Basta consultar o `Formação_Power_BI.pdf` para ver o relatório completo em formato estático.
 
-<img width="1118" height="622" alt="Pie Chart / Bar Chart" src="https://github.com/user-attachments/assets/63cf1827-d0b5-4faa-b087-6123bb4eccb9" />
+## 🎯 Objetivo
 
-### Página 2 – Report de Lucro Detalhado
-
-<img width="1118" height="622" alt="Report de Lucro Detalhado" src="https://github.com/user-attachments/assets/d06ad0be-c85f-418f-9608-23761fd1df13" />
+Projeto desenvolvido para praticar modelagem de dados e construção de dashboards interativos no Power BI, incluindo navegação entre páginas e alternância dinâmica entre tipos de visualização.
